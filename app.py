@@ -1,2 +1,11 @@
+import pathlib
+import textwrap
+import google.generativeai as genai
 import streamlit as st
-st.write("Welcome to the summarize easy")
+import load
+st.header("Welcome to the summarize easy")
+url=st.text_input("Enter the query")
+if url:
+    response=(load.output(url))
+    for chunk in response:
+        st.write(chunk.text)
