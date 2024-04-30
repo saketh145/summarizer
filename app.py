@@ -4,4 +4,4 @@ st.set_page_config(
         page_icon="fav2.jpg",
         layout="wide",
 )
-st.header("Welcome to the *SUMMARIZE EAZY*")
+st.header("Welcome to the **SUMMARIZE EAZY**")
