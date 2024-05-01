@@ -3,3 +3,4 @@ beautifulsoup4
 pyPDF2
 pathlib
 docx2txt
+google-generativeai
