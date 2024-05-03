@@ -1,5 +1,4 @@
 import pathlib
-import textwrap
 import google.generativeai as genai
 def output(text):
     response = model.generate_content("Summarize this and also don't make this too short "+text)
